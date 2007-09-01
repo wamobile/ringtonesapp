@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = E9E3D6090C7CE0C2007C9FB0 /* Ringtones */;
+		activeTarget = 8D1107260486CEB800E47090 /* Ringtones */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Ringtones */,
+		);
+		breakpoints = (
+			E9FBD4B20C8134E80018A0AB /* RTGearButton.m:1 */,
+		);
+		breakpointsGroup = E9EF00820C7DF94700571B13 /* XCBreakpointsBucket */;
+		codeSenseManager = E9E3D6190C7CE0C6007C9FB0 /* Code sense */;
+		executables = (
+			E9E3D6090C7CE0C2007C9FB0 /* Ringtones */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					202,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					22,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 210364508;
+			PBXWorkspaceStateSaveDate = 210364508;
+		};
+		sourceControlManager = E9E3D6180C7CE0C6007C9FB0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Ringtones_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1345, 695}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1345, 695}}";
+			sepNavWindowFrame = "{{15, 49}, {1390, 824}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Ringtones */ = {
+		activeExec = 0;
+		executables = (
+			E9E3D6090C7CE0C2007C9FB0 /* Ringtones */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {989, 559}}";
+			sepNavSelRange = "{722, 0}";
+			sepNavVisRect = "{{0, 0}, {989, 559}}";
+			sepNavWindowFrame = "{{346, 168}, {1034, 688}}";
+		};
+	};
+	E9E3D6090C7CE0C2007C9FB0 /* Ringtones */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Ringtones;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	E9E3D6180C7CE0C6007C9FB0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	E9E3D6190C7CE0C6007C9FB0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E9E3D6310C7CFACA007C9FB0 /* RTRingtoneController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 30;
+		lastKnownFileType = sourcecode.c.objc;
+		name = RTRingtoneController.m;
+		path = /Users/eharris/Development/Ringtones/RTRingtoneController.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1814, 7476}}";
+			sepNavSelRange = "{13342, 0}";
+			sepNavVisRect = "{{825, 4614}, {989, 559}}";
+			sepNavWindowFrame = "{{255, 147}, {1034, 688}}";
+		};
+	};
+	E9E3D98B0C7D62A2007C9FB0 /* RTRingtoneController.m:158 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E9E3D6310C7CFACA007C9FB0 /* RTRingtoneController.m */;
+		functionName = "-addFile";
+		hitCount = 1;
+		lineNumber = 158;
+		location = RTRingtoneController.ob;
+		modificationTime = 209808572.981519;
+		state = 1;
+	};
+	E9EF00820C7DF94700571B13 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+			E9E3D98B0C7D62A2007C9FB0 /* RTRingtoneController.m:158 */,
+		);
+	};
+	E9FBD4550C81222A0018A0AB /* RTGearButton.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = RTGearButton.m;
+		path = /Users/eharris/Development/Ringtones/RTGearButton.m;
+		sourceTree = "<absolute>";
+	};
+	E9FBD4B20C8134E80018A0AB /* RTGearButton.m:1 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E9FBD4550C81222A0018A0AB /* RTGearButton.m */;
+		functionName = "-initWithCoder:";
+		hitCount = 1;
+		lineNumber = 1;
+		modificationTime = 209892093.557586;
+		state = 2;
+	};
+	E9FBDAAD0C837A5B0018A0AB /* Credits.rtf */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 720}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1049, 720}}";
+			sepNavWindowFrame = "{{15, 39}, {1094, 834}}";
+		};
+	};
+}
