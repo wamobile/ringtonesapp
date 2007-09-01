@@ -1,0 +1,41 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = RTGearButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {
+            ACTIONS = {
+                backup = id; 
+                browse = id; 
+                delete = id; 
+                gearMenu = id; 
+                openFile = id; 
+                quickClip = id; 
+                quickClipAll = id; 
+                quickEdit = id; 
+                quickEditAll = id; 
+                remove = id; 
+                updateAction = id; 
+            }; 
+            CLASS = RTRingtoneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_mainWindow" = NSWindow; 
+                clipButton = NSButton; 
+                fakePopup = NSPopUpButton; 
+                gearButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                ringtones = NSTableView; 
+                status = NSTextField; 
+                storeController = RTRingtoneStore; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = RTRingtoneStore; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {tableView = NSTableView; }; 
+            SUPERCLASS = NSArrayController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
