@@ -96,8 +96,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 210364508;
-			PBXWorkspaceStateSaveDate = 210364508;
+			PBXPerProjectTemplateStateSaveDate = 210721040;
+			PBXWorkspaceStateSaveDate = 210721040;
 		};
 		sourceControlManager = E9E3D6180C7CE0C6007C9FB0 /* Source Control */;
 		userBuildSettings = {
@@ -172,12 +172,6 @@
 		name = RTRingtoneController.m;
 		path = /Users/eharris/Development/Ringtones/RTRingtoneController.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1814, 7476}}";
-			sepNavSelRange = "{13342, 0}";
-			sepNavVisRect = "{{825, 4614}, {989, 559}}";
-			sepNavWindowFrame = "{{255, 147}, {1034, 688}}";
-		};
 	};
 	E9E3D98B0C7D62A2007C9FB0 /* RTRingtoneController.m:158 */ = {
 		isa = PBXFileBreakpoint;

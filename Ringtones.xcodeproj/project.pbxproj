@@ -31,9 +31,8 @@
 		E9536C6D0C89E9BA00CF1254 /* RTRingtoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9536C650C89E9BA00CF1254 /* RTRingtoneController.m */; };
 		E9536C6E0C89E9BA00CF1254 /* RTRingtoneStore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9536C660C89E9BA00CF1254 /* RTRingtoneStore.h */; };
 		E9536C6F0C89E9BA00CF1254 /* RTRingtoneStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E9536C670C89E9BA00CF1254 /* RTRingtoneStore.m */; };
-		E99BF77C0C81119B002F2B59 /* iMediaBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99BF77B0C81119B002F2B59 /* iMediaBrowser.framework */; };
+		E9D33D1C0C8F596F00B4EB1B /* iMediaBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D33D1B0C8F596F00B4EB1B /* iMediaBrowser.framework */; };
 		E9E3D8F10C7D5C0A007C9FB0 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E3D8F00C7D5C0A007C9FB0 /* QTKit.framework */; };
-		E9FBD6F00C817F870018A0AB /* iMediaBrowser.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E99BF77B0C81119B002F2B59 /* iMediaBrowser.framework */; };
 		E9FBDAAE0C837A5B0018A0AB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E9FBDAAD0C837A5B0018A0AB /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +56,6 @@
 			dstPath = ../Frameworks;
 			dstSubfolderSpec = 6;
 			files = (
-				E9FBD6F00C817F870018A0AB /* iMediaBrowser.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +92,7 @@
 		E9536C650C89E9BA00CF1254 /* RTRingtoneController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RTRingtoneController.m; sourceTree = "<group>"; };
 		E9536C660C89E9BA00CF1254 /* RTRingtoneStore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RTRingtoneStore.h; sourceTree = "<group>"; };
 		E9536C670C89E9BA00CF1254 /* RTRingtoneStore.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RTRingtoneStore.m; sourceTree = "<group>"; };
-		E99BF77B0C81119B002F2B59 /* iMediaBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iMediaBrowser.framework; path = ../Build/Release/iMediaBrowser.framework; sourceTree = SOURCE_ROOT; };
+		E9D33D1B0C8F596F00B4EB1B /* iMediaBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMediaBrowser.framework; sourceTree = "<group>"; };
 		E9E3D8F00C7D5C0A007C9FB0 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		E9FBDAAD0C837A5B0018A0AB /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +105,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				E9E3D8F10C7D5C0A007C9FB0 /* QTKit.framework in Frameworks */,
 				E944929A0C7E217100915496 /* MobileDevice in Frameworks */,
-				E99BF77C0C81119B002F2B59 /* iMediaBrowser.framework in Frameworks */,
+				E9D33D1C0C8F596F00B4EB1B /* iMediaBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +115,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E99BF77B0C81119B002F2B59 /* iMediaBrowser.framework */,
+				E9D33D1B0C8F596F00B4EB1B /* iMediaBrowser.framework */,
 				E9E3D8F00C7D5C0A007C9FB0 /* QTKit.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
@@ -323,9 +321,11 @@
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../Build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -356,9 +356,11 @@
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../Build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				INFOPLIST_FILE = Info.plist;
