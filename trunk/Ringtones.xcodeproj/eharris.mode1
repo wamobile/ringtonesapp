@@ -286,7 +286,7 @@
 							<real>227</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>531 262 690 397 0 0 1440 878 </string>
+						<string>113 413 690 397 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -323,7 +323,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {441, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>531 262 690 397 0 0 1440 878 </string>
+								<string>113 413 690 397 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -343,7 +343,7 @@
 								<key>Frame</key>
 								<string>{{0, 5}, {441, 351}}</string>
 								<key>RubberWindowFrame</key>
-								<string>531 262 690 397 0 0 1440 878 </string>
+								<string>113 413 690 397 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -367,9 +367,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E9536C370C89E85F00CF1254</string>
+				<string>E9D33CF90C8F591600B4EB1B</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E9536C380C89E85F00CF1254</string>
+				<string>E9D33CFA0C8F591600B4EB1B</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -506,11 +506,11 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>E9E3D6360C7CFB56007C9FB0</string>
+		<string>/Users/eharris/Development/ringtonesapp/Ringtones.xcodeproj</string>
 		<string>1C0AD2B3069F1EA900FABCE6</string>
-		<string>/Users/eharris/Development/Ringtones/Ringtones.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>531 262 690 397 0 0 1440 878 </string>
+	<string>113 413 690 397 0 0 1440 878 </string>
 	<key>WindowTools</key>
 	<array>
 		<dict>
@@ -587,7 +587,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E9E3D6360C7CFB56007C9FB0</string>
-				<string>E9536C930C89E9ED00CF1254</string>
+				<string>E9D33D5A0C8F59B700B4EB1B</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -949,9 +949,9 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C0AD2B3069F1EA900FABCE6</string>
-				<string>E9536C390C89E85F00CF1254</string>
+				<string>E9D33D5B0C8F59B700B4EB1B</string>
 				<string>1CD0528B0623707200166675</string>
-				<string>E9536C3A0C89E85F00CF1254</string>
+				<string>E9D33D5C0C8F59B700B4EB1B</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.run</string>
@@ -960,7 +960,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C0AD2B3069F1EA900FABCE6</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
